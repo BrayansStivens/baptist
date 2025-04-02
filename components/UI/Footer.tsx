@@ -8,7 +8,9 @@ export default function Footer() {
           {/* Logo y descripción */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="text-2xl font-bold mb-2">
-              <span className="text-[#b8e611]">bap</span>
+              <span className="text-[#b8e611]">b</span>
+              <span className="text-white">a</span>
+              <span className="text-[#b8e611]">p</span>
               <span className="text-white">tist</span>
             </div>
             <p className="text-white/70 text-sm max-w-md">
