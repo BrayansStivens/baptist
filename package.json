@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "dev": "next dev",
+    "build": "next build",      
     "start": "next start",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "pnpm run build", 
+    "deploy": "gh-pages -d out"    
   },
   "dependencies": {
     "clsx": "^2.1.1",
