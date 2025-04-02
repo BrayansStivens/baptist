@@ -1,6 +1,6 @@
 import { Wallet } from "lucide-react";
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <footer className="w-full border-t border-white/10 bg-black/20 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto py-8 px-4 lg:px-6">
