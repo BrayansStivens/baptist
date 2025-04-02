@@ -4,7 +4,7 @@ export const dynamic = "force-static";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center ">
+      <div className="flex flex-col lg:items-center">
         <ServiceExplorer />
       </div>
     </>

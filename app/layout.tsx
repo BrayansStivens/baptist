@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
-        <main className="pt-32 px-6">{children}</main>
+        <main className="pt-32 px-3 lg:px-6">{children}</main>
       </body>
     </html>
   );

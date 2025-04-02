@@ -41,7 +41,8 @@ export default function NavBar() {
           <span className="relative inline-block z-10 text-white">
             <span
               className={clsx(
-                "absolute z-0 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)] pointer-events-none top-[9px] w-3 h-3"
+                "absolute z-0 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)] pointer-events-none",
+                scrolled ? "top-[6px] w-2 h-2" : "top-[9px] w-3 h-3"
               )}
               style={{ left: "50%", transform: "translateX(-43%)" }}
             />
