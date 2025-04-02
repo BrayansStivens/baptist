@@ -76,32 +76,40 @@ export default function ServiceExplorer() {
     setActiveSection("jobs");
     setActiveFreelancerSub(null);
     setFreelancerSearchTerm("");
+    handleFreelancerBackToList();
     handleJobCategoryClickBase(category);
+    setShowingProvidersList(true);
   };
 
   const handleFreelancerCategoryClick = (category: string) => {
     setActiveSection("freelancers");
     setActiveJobSub(null);
     setJobSearchTerm("");
+    handleJobBackToList();
     handleFreelancerCategoryClickBase(category);
+    setShowingProvidersList(true);
   };
 
   const handleJobSubcategoryClick = (sub: JobKey) => {
     setActiveSection("jobs");
     setActiveFreelancerSub(null);
     setFreelancerSearchTerm("");
+    handleFreelancerBackToList();
     setActiveJobSub(sub);
     setJobSearchTerm("");
     setMobileView("list");
+    setShowingProvidersList(true);
   };
 
   const handleFreelancerSubcategoryClick = (sub: ProviderKey) => {
     setActiveSection("freelancers");
     setActiveJobSub(null);
     setJobSearchTerm("");
+    handleJobBackToList();
     setActiveFreelancerSub(sub);
     setFreelancerSearchTerm("");
     setMobileView("list");
+    setShowingProvidersList(true);
   };
 
   const handleBackToCategories = () => {
