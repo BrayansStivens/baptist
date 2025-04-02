@@ -42,10 +42,10 @@ export default function NavBar() {
             <span
               className={clsx(
                 "absolute z-0 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)] pointer-events-none",
-                scrolled ? "w-[0.4em] h-[0.4em]" : "w-[0.55em] h-[0.55em]"
+                scrolled ? "w-2 h-2" : "w-3 h-3"
               )}
               style={{
-                top: scrolled ? "0.1em" : "0.15em",
+                top: scrolled ? "2px" : "4px", // Ajuste fino para móviles
                 left: "50%",
                 transform: "translateX(-43%)",
               }}
