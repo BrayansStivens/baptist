@@ -42,13 +42,16 @@ export default function NavBar() {
             <span
               className={clsx(
                 "absolute z-0 rounded-full bg-white shadow-[0_0_10px_4px_rgba(255,255,255,0.7)] pointer-events-none",
-                scrolled ? "top-[6px] w-2 h-2" : "top-[9px] w-3 h-3"
+                scrolled ? "w-[0.4em] h-[0.4em]" : "w-[0.55em] h-[0.55em]"
               )}
-              style={{ left: "50%", transform: "translateX(-43%)" }}
+              style={{
+                top: scrolled ? "0.1em" : "0.15em",
+                left: "50%",
+                transform: "translateX(-43%)",
+              }}
             />
             <span className="relative z-10">i</span>
           </span>
-
           <span className="text-white">s</span>
           <span className="text-white">t</span>
         </h1>
