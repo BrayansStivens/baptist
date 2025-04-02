@@ -81,8 +81,8 @@ export const jobs = {
         "Conocimientos de UI/UX"
       ],
       "skills": ["Figma", "Adobe XD", "HTML/CSS", "JavaScript"],
-      "postedDate": "2024-03-01",
-      "deadline": "2024-03-15",
+      "postedDate": "2025-03-01",
+      "deadline": "2025-03-15",
       "status": "open"
     },
     {
@@ -99,8 +99,8 @@ export const jobs = {
         "Capacidad de trabajar con stakeholders"
       ],
       "skills": ["Adobe Creative Suite", "WordPress", "Bootstrap"],
-      "postedDate": "2024-03-02",
-      "deadline": "2024-03-20",
+      "postedDate": "2025-03-02",
+      "deadline": "2025-03-20",
       "status": "open"
     }
   ],
@@ -119,8 +119,8 @@ export const jobs = {
         "Creatividad y atención al detalle"
       ],
       "skills": ["Photoshop", "Illustrator", "InDesign"],
-      "postedDate": "2024-03-03",
-      "deadline": "2024-03-25",
+      "postedDate": "2025-03-03",
+      "deadline": "2025-03-25",
       "status": "open"
     }
   ],
@@ -139,8 +139,8 @@ export const jobs = {
         "Español nativo"
       ],
       "skills": ["Copywriting", "SEO", "WordPress", "Investigación"],
-      "postedDate": "2024-03-04",
-      "deadline": "2024-03-18",
+      "postedDate": "2025-03-04",
+      "deadline": "2025-03-18",
       "status": "open"
     }
   ],
@@ -159,8 +159,8 @@ export const jobs = {
         "Gestión de presupuestos"
       ],
       "skills": ["Google Ads", "Meta Ads", "Analytics", "SEO"],
-      "postedDate": "2024-03-05",
-      "deadline": "2024-03-22",
+      "postedDate": "2025-03-05",
+      "deadline": "2025-03-22",
       "status": "open"
     }
   ]

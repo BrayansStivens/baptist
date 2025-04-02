@@ -1,22 +1,14 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/UI/NavBar";
+import { Footer } from "@/components/UI/Footer";
 
-const poppins = Poppins({
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BAPTIST",
-  description: "Find an expert baptist",
+  title: "Baptist - Encuentra tu próximo trabajo o freelancer",
+  description: "Plataforma de freelancing potenciada por blockchain",
 };
 
 export default function RootLayout({
@@ -25,10 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${poppins.variable} ${geistMono.variable} antialiased`}>
-        <NavBar />
-        <main className="pt-32 px-3 lg:px-6">{children}</main>
+    <html lang="es">
+      <body className={inter.className}>
+        <div className="min-h-screen flex flex-col">
+          <NavBar />
+          <main className="flex-1 pt-32 px-2 lg:px-6">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

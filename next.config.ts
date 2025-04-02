@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   assetPrefix: "/baptist/",
   eslint: {
     ignoreDuringBuilds: true,
-  }, 
+  },
 };
 
 export default nextConfig;
