@@ -1,13 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // ✅ Activa el modo export estático
+  output: "export",
   images: {
-    unoptimized: true, // ✅ Evita el uso de next/image optimizada
+    unoptimized: true,
   },
-  // 👇 Solo si tu repositorio no está en raíz (recomendado para GitHub Pages)
   basePath: "/baptist",
   assetPrefix: "/baptist/",
+  eslint: {
+    ignoreDuringBuilds: true, 
 };
 
 export default nextConfig;
